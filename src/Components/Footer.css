@@ -1,0 +1,41 @@
+.footer{
+    background-color: #ffc107;
+    margin:88px 0 0 0;
+    padding: 20px 0px 20px 0px;
+}
+
+address{
+    font-size:80%;
+    margin:10px;
+    color:#000;
+}
+.links h5,
+.address h5{
+    color: #f7051d;
+    font-weight: bold;
+
+}
+.links ul li a,
+.address address{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color:#111213
+}
+.btn-facebook{
+    width:150px;
+    height:50px;
+    margin: 10px;
+}
+i.fa.fa-facebook{
+    text-align: center;
+    line-height: 48px;
+}
+.copyright{
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+    margin: 20px 10px;
+    text-align: center;
+
+}

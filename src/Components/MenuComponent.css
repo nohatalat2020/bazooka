@@ -1,0 +1,38 @@
+
+
+.image{
+    transition: .5s;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0;
+  
+}
+
+
+.details{
+    color:#fff;
+    text-align: center;
+    transform: translateY(0px);
+    background-color: rgba(0,0,0,.9);
+    transition: .5s;
+    transform-origin: bottom;
+     font-size: 20px;
+
+    
+}
+
+/*.image:hover .details{
+    transform: translateY(-150px);
+    
+}*/
+
+.details h3{
+    color: #f7a30a;
+}
+
+.details p{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}

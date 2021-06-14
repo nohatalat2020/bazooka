@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import Home from './Pages/Home';
+import About from './Pages/About';
+import Dishes from './Pages/Dishes';
+import Testimonials from './Pages/Testimonials';
+import Contact from './Pages/Contact';
+import Navbar from './Components/Navbar';
+import {BrowserRouter , Route,Redirect,Switch,useLocation} from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+ 
+ constructor(props){
+   super(props);
+   
+ }
+
+  render() { 
+
+    return ( 
+ <BrowserRouter >
+     <Navbar/>
+     
+     <Switch>
+            <Route exact path="/" component={ Home}/>
+            <Route  path="/about" component={About}/>
+            <Route  path="/dishes" component={ Dishes}/>
+            <Route  path="/testimonials" component={ Testimonials}/>
+            <Route  path="/contact" component={Contact}/>
+            <Redirect to="/"/>
+      </Switch>
+    
+</BrowserRouter>
+     );
+  }
 }
-
+ 
 export default App;

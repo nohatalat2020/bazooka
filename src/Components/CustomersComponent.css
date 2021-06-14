@@ -1,0 +1,88 @@
+.carousel-caption{
+    background-color: rgba(0,0,0,.7);
+    font-size:40px;
+     word-spacing: 15px;
+    line-height: 40px;
+
+}
+.carousel-indicators li{
+    margin: 50px 5px 0px 3px;
+}
+.carousel-item {
+     margin-bottom: 30px;
+}
+
+.carousel-item img{
+    border:10px solid #fff;
+}
+.test-intro{
+ padding: 40px;
+    color:#fff;
+    word-spacing: 15px;
+    font-size: 25px;
+    line-height: 40px;
+    margin:60px 0;
+}
+.test-intro h2,
+.test-intro p{
+
+    float:right;
+    text-align: center;
+}
+.test-intro hr{
+    width:100%;
+    color:#fff;
+}
+
+span.carousel-control-prev-icon,
+span.carousel-control-next-icon{
+    padding: 25px;
+}
+
+@media(max-width:576px){
+    .carousel-caption{
+    background-color: rgba(0,0,0,.5);
+    font-size:22px;
+    line-height: 30px;
+    word-spacing: 10px;
+
+}
+.test-intro{
+ padding: 20px;
+    color:#fff;
+    word-spacing: 10px;
+    font-size: 18px;
+    line-height: 30px;
+    margin:60px 0;
+}
+
+span.carousel-control-prev-icon,
+span.carousel-control-next-icon{
+    padding: 15px;
+}
+}
+
+.comments p{
+  padding: 20px;
+  color:orange;
+  background-color: palegoldenrod;
+}
+
+.comments input{
+    width:100%;
+    border:none;
+    padding: 10px;
+    outline: none;
+}
+
+.comments button{
+    width:40%;
+    border:none;
+    background-color: rgb(250, 134, 1);
+    margin: 20px;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px;
+    float: right;
+   
+}
